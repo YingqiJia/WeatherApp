@@ -1,0 +1,11 @@
+<section class="results">
+    <h1>{{selectedCity.name + ', ' + selectedCity.sys.country}}</h1>
+    <div class="main-weather">
+        <img src="{{selectedCity.imagsrc}}" />
+        <h2 [ngClass]="units?'metric':'imperial'">{{selectedCity.main.temp}}</h2>
+    </div>
+    <div class="content">
+        <p>{{selectedCity.description}}</p>
+        <p [ngClass]="units?'metric':'imperial'">{{selectedCity.main.temp_min + ' / ' + selectedCity.main.temp_max}}</p>
+    </div>
+</section>

@@ -1,0 +1,34 @@
+.results {
+    margin: 32px 0 0 50%;
+    width: 480px;
+    transform: translate(-50%);
+}
+
+.main-weather {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 24px;
+}
+
+.main-weather img {
+    width: 160px;
+}
+
+.metric::after {
+    content: '\00B0\43';
+}
+.imperial::after {
+    content: '\00B0\46';
+}
+
+.content {
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 55%;
+}
+
+.content p {
+    display: inline-block;
+    padding: 8px;
+}
