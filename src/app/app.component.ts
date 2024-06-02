@@ -89,7 +89,7 @@ export class AppComponent implements OnInit {
     this.updateValue(this.selectedCity.name, this.selectedCity.coord);
   }
 
-  get showWeather(): boolean {
-    return this.showWeatherInfo;
-  }
+  // get showWeather(): boolean {
+  //   return this.showWeatherInfo;
+  // }
 }
